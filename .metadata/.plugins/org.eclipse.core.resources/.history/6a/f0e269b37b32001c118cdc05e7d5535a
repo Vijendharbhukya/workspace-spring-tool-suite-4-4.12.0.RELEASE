@@ -1,0 +1,12 @@
+package lab2;
+
+public class SecoundSmallestInArryExample {
+    public static int getSecondSmallest(int[] a,int total) {
+    	int temp;
+    }
+	public static void main(String[] args) {
+		
+
+	}
+
+}
