@@ -46,7 +46,6 @@
 			<item value="org.eclipse.m2e"/>
 			<item value="org.eclipse.pde.PDE"/>
 			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
-			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
 </section>
