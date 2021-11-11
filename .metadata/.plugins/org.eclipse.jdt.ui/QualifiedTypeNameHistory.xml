@@ -16,6 +16,7 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="com.cg.spring.core.demo.model.Student"/>
     <fullyQualifiedTypeName name="com.cg.spring.core.demo.model.EmployeeD"/>
-    <fullyQualifiedTypeName name="com.cg.spring.core.demo.model.Employee"/>
     <fullyQualifiedTypeName name="com.cg.spring.core.demo.model.Department"/>
+    <fullyQualifiedTypeName name="com.cg.spring.core.demo.model.Person"/>
+    <fullyQualifiedTypeName name="com.cg.spring.core.demo.model.Employee"/>
 </qualifiedTypeNameHistroy>

@@ -17,7 +17,19 @@ public class MirrorImage {
 		System.out.println("Error: "+e);
 	}
 	//get source image
-	int Image1=simg.getImage();
-	int 
-	
+	int width=simg.getWidth();
+	int height = simg.getHeight();
+	//BufferingedImage for mirror
+	BufferedImage mimg=new BufferedImage(width*2,height,BufferedImage.TYPE_INT_ARGB);
+	//create mirror image pixel
+	for(int y=0;y<height;y++) {
+	for(int lx=0,rx=width*2 -1;lx<width;lx++,rx--) {
+		//lx starts from the left side 
+		//get sources pixel value
+		int p= simg.getRGB(lx,y);
+		mimg.setRGB(lx,y,p);
+		mimg.setRGB(rx,y,p);
+	}
+	}
+}
 }
