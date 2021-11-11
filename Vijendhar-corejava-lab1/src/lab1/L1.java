@@ -1,6 +1,6 @@
 package lab1;
 public class L1{
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		try {
 			f();
 			System.out.println("1");
